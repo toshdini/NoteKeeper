@@ -1,0 +1,23 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <EditTextPreference
+        android:icon="@drawable/ic_baseline_text_fields_24"
+        android:key="user_display_name"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/display_name" />
+    <EditTextPreference
+        android:icon="@drawable/ic_email_version_02_24d"
+        android:key="user_email_address"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/email_address" />
+    <ListPreference
+        android:entries="@array/pref_entries_favorite_social"
+        android:entryValues="@array/pref_values_favorite_social"
+        android:icon="@drawable/ic_baseline_mediation_24"
+        android:key="user_favorite_social"
+        android:title="@string/pref_title_favorite_social" />
+
+</PreferenceScreen>

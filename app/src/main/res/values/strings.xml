@@ -1,0 +1,58 @@
+<resources>
+    <string name="action_settings" translatable="false">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label" translatable="false">First Fragment</string>
+    <string name="second_fragment_label" translatable="false">Second Fragment</string>
+    <string name="next" translatable="false">Next</string>
+    <string name="previous" translatable="false">Previous</string>
+
+    <string name="hello_first_fragment" translatable="false">Hello first fragment</string>
+    <string name="action_delete_option" translatable="false">Delete</string>
+    <string name="hello_second_fragment" translatable="false">Hello second fragment. Arg: %1$s</string>
+    <string name="hello_world" translatable="false">Hello World</string>
+    <string name="title_activity_note_list" translatable="false">NoteListActivity</string>
+    <string name="title_activity_note" translatable="false">Edit Note</string>
+    <string name="send_as_email" translatable="false">send as email</string>
+    <string name="textview" translatable="false">TextView</string>
+    <string name="cancel" translatable="false">Cancel</string>
+    <string name="todo" translatable="false">TODO</string>
+    <string name="title_activity_main" translatable="false">MainActivity</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="nav_header_title" translatable="false">Android Studio</string>
+    <string name="nav_header_subtitle" translatable="false">android.studio@android.com</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <string name="drawer_share_item" translatable="false">Share</string>
+    <string name="action_reminder" translatable="false">set reminder</string>
+    <string name="action_backup_note" translatable="false">Backup notes</string>
+    <string name="action_upload" translatable="false">Backup Notes</string>
+    <string name="menu_home" translatable="false">Home</string>
+    <string name="menu_gallery" translatable="false">Gallery</string>
+    <string name="menu_slideshow" translatable="false">Slideshow</string>
+    <string name="NoteKeeper" translatable="false">NoteKeeper</string>
+    <string name="notes" translatable="false">Notes</string>
+    <string name="Notes" translatable="false">Notes</string>
+    <string name="Courses" translatable="false">Courses</string>
+    <string name="note_title_hint" translatable="false">Note title</string>
+    <string name="note_text_hint" translatable="false">Note text</string>
+    <string name="title_activity_settings" translatable="false">SettingsActivity</string>
+    <string name="pref_title_favorite_social" translatable="false">Favourite social network</string>
+    
+    <string-array name="pref_entries_favorite_social">
+        <item>Facebook</item>
+        <item>Twitter</item>
+    </string-array>
+    <string-array name="pref_values_favorite_social">
+        <item>https://www.facebook.com</item>
+        <item>http://twitter.com</item>
+    </string-array>
+    
+    <!-- Preference Titles -->
+    <string name="display_name" translatable="false">Display Name</string>
+    <string name="email_address" translatable="false">Email Address</string>
+    <string name="pref_default_display_name" translatable="false">your Name</string>
+    <string name="app_name">NoteKeeper</string>
+
+
+
+</resources>

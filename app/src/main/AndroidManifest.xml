@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.notekeeper">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NoteKeeper"
+        android:usesCleartextTraffic="true">
+        <service
+            android:name=".Note.NoteUploaderJobService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE">
+        </service>
+
+        <provider
+            android:name=".Note.ContentProvider.NoteKeeperContentProvider"
+            android:authorities="com.example.notekeeper.provider"
+            android:enabled="true"
+            android:exported="false" />
+
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="true"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/NoteKeeper"
+            android:theme="@style/Theme.NoteKeeper.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Note.NoteListActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.NoteKeeper.NoActionBar" />
+        <activity
+            android:name=".NoteActivity"
+            android:exported="true"
+            android:label="@string/title_activity_note"
+            android:theme="@style/Theme.NoteKeeper.NoActionBar" />
+    </application>
+
+</manifest>
